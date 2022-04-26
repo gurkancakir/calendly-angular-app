@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'appointment';
 }
+
+
+export {}; declare global { interface Window { Calendly: any; } } 
